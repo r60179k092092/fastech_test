@@ -1,3 +1,3 @@
 # fastech_test
 test
-testAAAAABBBBB
+test
