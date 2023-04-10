@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FT_SFIS_GF.exe" version="1.0.0.0" publicKeyToken="291717a2b7083d77" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="logo-SFIS-72.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FT_SFIS_GF" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FT_SFIS_GF.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 資訊清單選項
+          如果您要變更 Windows 使用者帳戶控制層級，請將 
+          requestedExecutionLevel 節點取代為下列其中一項。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         如果您要利用檔案及登錄模擬，
+         以便提供回溯相容性，則請刪除 requestedExecutionLevel 節點。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="APSQL.dll" size="77824">
+      <assemblyIdentity name="APSQL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>2f8BCKrWKVcjmBTNlgyJM2gTW4w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="clsEDIT2012.dll" size="102400">
+      <assemblyIdentity name="clsEDIT2012" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Bvhs4jGDFV0uBJfXVR7xnLRcGcI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DataMatrix.net.dll" size="105472">
+      <assemblyIdentity name="DataMatrix.net" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>bZQ/pY9e2uiBGsy7dLBYHhwGNuA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FDGV.dll" size="29184">
+      <assemblyIdentity name="FDGV" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>N89KBOTHV6FkZxAKcfldp7HJdG0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FT_SFIS_GF.exe" size="1885696">
+      <assemblyIdentity name="FT_SFIS_GF" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>jePRkDAqs5fPOb/rYs0P2BkNkAs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LABTRANx64.dll" size="283136">
+      <assemblyIdentity name="LABTRANx64" version="2.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>SDATw/QdTieSv4FhEw6NSOZqLrY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PDF471.dll" size="45056">
+      <assemblyIdentity name="PDF471" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>EUZm7VHwVys+sefkZq/RkbcfAWk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ThoughtWorks.QRCode.dll" size="6209536">
+      <assemblyIdentity name="ThoughtWorks.QRCode" version="1.0.2774.19990" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>TbGP3Mu0miyJ1sjD1ArJx3nx6lo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="FT_SFIS_GF.exe.config" size="184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>if5qN8s9b0fUgP2BGgLo1EwSNdI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="logo-SFIS-72.ico" size="65166">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LzBOloon8C23ZR2kgKLvFYaPXsk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LIN310\LINGH" issuerKeyHash="e21e40ffe646ba3c982b62c8d82a261c434df185" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Lu5qkwVdgZaglfXV6/DIdtSiYnE=</DigestValue></Reference></SignedInfo><SignatureValue>pohzCt98ZqQHMdetqZpPmJ9du5LkVHVYSys4vtuixS4JOKyEq/bz9w03A7Vh8yljS9C1QnJlveaweS+KIHsD7Zx3jvBbr2y7FCSQJX8xXXPfbfy6p6jIdycI5pzPDwQdTihvjzwiRrrCQp8jwo4omlkJWeAWm8oiMW1iZqOpP64=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2WCzAS/QdcDFndwlAiwMUz8iMUBJsS9Jz1J3CPsD3ztikvvcp8ec67MTinu4LmuJvrlSIlV6LF28QrYYRlxdMRooKx6YortHEbXb/DcmGp5oaHDc5ZSh64fI8ZwUfGtHcsUzhru7kJAuZaB2J6jqQlIvBSiY1CKZk96Nf4jUmbU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7162a2d476c8f0ebd5f595a096815d05936aee2e" Description="" Url=""><as:assemblyIdentity name="FT_SFIS_GF.exe" version="1.0.0.0" publicKeyToken="291717a2b7083d77" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LIN310\LINGH</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>D0VChCJtiAV86a/wExxOoIi7o08=</DigestValue></Reference></SignedInfo><SignatureValue>W7sNPzbW0nOw9SfqYXpW0Z66iKerrZ+3N6+xXPbMLjN2EkWX5nLOYGEJa6Cn7mHV2CnTUaEMV3Zl5saRuY3gmfOJA27fecmbOtIafluqR1aEuVcjqIcEYYU+J2BW+uf2wDj/IrOOS2EOzo2p9n6B+Yk9X3F2x3sSp0wzVMzbutI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2WCzAS/QdcDFndwlAiwMUz8iMUBJsS9Jz1J3CPsD3ztikvvcp8ec67MTinu4LmuJvrlSIlV6LF28QrYYRlxdMRooKx6YortHEbXb/DcmGp5oaHDc5ZSh64fI8ZwUfGtHcsUzhru7kJAuZaB2J6jqQlIvBSiY1CKZk96Nf4jUmbU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQJ9Edz4pHBrpFBcvA6YtnHzANBgkqhkiG9w0BAQUFADAjMSEwHwYDVQQDHhgATABJAE4AMwAxADAAXABMAEkATgBHAEgwHhcNMTgxMDA1MDI1MDQwWhcNMTkxMDA1MDg1MDQwWjAjMSEwHwYDVQQDHhgATABJAE4AMwAxADAAXABMAEkATgBHAEgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANlgswEv0HXAxZ3cJQIsDFM/IjFASbEvSc9Sdwj7A987YpL73KfHnOuzE4p7uC5rib65UiJVeixdvEK2GEZcXTEaKCsemKK7RxG12/w3JhqeaGhw3OWUoeuHyPGcFHxrR3LFM4a7u5CQLmWgdieo6kJSLwUomNQimZPejX+I1Jm1AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEACerrXPOG8vQ01PCp3RgIktqM9sqrePfsMh95e1fYU3UhXW+1VKZe9Zof+tnrjw+CBB4WohJOWyCFJA9Ex1yVarpCO3AQFbyJ6gAh0sLi12fz/mVg3f7LnSw/C051i0WF6/4SIdZbDc3gkZIJ4jUWRNz9p5r190iC7hcKmbXqxPg=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
